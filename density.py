@@ -23,8 +23,9 @@ class Densitometer:
         self.coeffecients = np.array([
             K0, K1, K2, K18, K19, K20A, K20B, K21A, K21B
         ])
+        self.rho_meter = self._calc_density(self.coeffecients)
 
-    def calc_density(self, K_arr: np.array):
+    def _calc_density(self, K_arr: np.array):
         """Calculate densitometer density measurement from calibration coeffecients,
         temperature and pressure readings"""
         tau = self.data['tden']     # oscillation period [micro sec]
