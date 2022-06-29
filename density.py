@@ -1,4 +1,4 @@
-"""Playground codes for densitometer coeffecients optimisation.""""
+"""Playground codes for densitometer coeffecients optimisation."""
 import pandas as pd
 import numpy as np
 
