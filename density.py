@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 from scipy.optimize import minimize
+from sklearn.metrics import mean_squared_error
 
 
 class Densitometer:
@@ -27,6 +28,7 @@ class Densitometer:
             K0, K1, K2, K18, K19, K20A, K20B, K21A, K21B
         ])
         self.rho_meter = self._calc_density(self.coeffecients)
+        self.rho_nel = self.data['rnel'].to_numpy()
 
     def _calc_density(self, K_arr: np.array) -> np.ndarray:
         """Calculate densitometer density measurement from calibration coeffecients,
@@ -51,8 +53,13 @@ class Densitometer:
         return rho_tp.to_numpy()
 
     def optimize_error(self, **kwargs):
+        def obj_func(K_arr):
+            return mean_squared_error(
+                self.rho_nel, self._calc_density(K_arr)
+            )
+
         res = minimize(
-            self._calc_density, self.coeffecients, **kwargs
+            obj_func, self.coeffecients, **kwargs
         )
         self.coeffecients_opt = res.x
         self.rho_meter_opt = res.fun
