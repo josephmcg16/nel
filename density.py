@@ -66,6 +66,6 @@ class Densitometer:
             self.coeffecients, 
             **kwargs
         )
-        self.coeffecients_opt = (res.x - res.x.min()) / (res.x.max() - res.x.min())
+        self.coeffecients_opt = (res.x - self.coeffecients.min()) / (self.coeffecients.max() - self.coeffecients.min())
         self.rho_meter_opt = self._calc_density(self.coeffecients_opt)
         return (res, self.coeffecients_opt, self.rho_meter_opt)
