@@ -2,6 +2,9 @@
 import pandas as pd
 import numpy as np
 
+from scipy.optimize import minimize
+
+
 class Densitometer:
     """_summary_"""
     def __init__(
@@ -25,7 +28,7 @@ class Densitometer:
         ])
         self.rho_meter = self._calc_density(self.coeffecients)
 
-    def _calc_density(self, K_arr: np.array):
+    def _calc_density(self, K_arr: np.array) -> np.ndarray:
         """Calculate densitometer density measurement from calibration coeffecients,
         temperature and pressure readings"""
         tau = self.data['tden']     # oscillation period [micro sec]
@@ -46,3 +49,11 @@ class Densitometer:
             (K_arr[7] * (p - P_REF) + K_arr[8] * (p - P_REF) ** 2)
 
         return rho_tp.to_numpy()
+
+    def optimize_error(**kwargs):
+        res.minimize(
+            self._calc_density, self.coeffecients, **kwargs
+        )
+        self.coeffecients_opt = res.x
+        self.rho_meter_opt = res.fun
+        return res
