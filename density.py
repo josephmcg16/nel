@@ -51,7 +51,7 @@ class Densitometer:
         return rho_tp.to_numpy()
 
     def optimize_error(self, **kwargs):
-        res.minimize(
+        res = minimize(
             self._calc_density, self.coeffecients, **kwargs
         )
         self.coeffecients_opt = res.x
