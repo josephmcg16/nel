@@ -53,19 +53,14 @@ class Densitometer:
         return rho_tp.to_numpy()
 
     def optimize_error(self, **kwargs):
-        def obj_fun(K_arr, f_true):
-            rho_hat = self._calc_density(K_arr)
-            f_hat = rho_hat * (rho_hat.max() - rho_hat.min()) + rho_hat.min()
-            return mean_squared_error(f_true, f_hat)
-
-        x0 = self.coeffecients * (self.coeffecients.max() - self.coeffecients.min()) + self.coeffecients.min()
-        f_true = self.rho_nel * (self.rho_nel.max() - self.rho_nel.min()) + self.rho_nel.min()
+        def obj_func(K_arr):
+            return mean_squared_error(
+                self.rho_nel, self._calc_density(K_arr)
+            )
 
         res = minimize(
-            lambda x: obj_fun(x, f_true),
-            self.coeffecients, 
-            **kwargs
+            obj_func, self.coeffecients, **kwargs
         )
-        self.coeffecients_opt = (res.x - self.coeffecients.min()) / (self.coeffecients.max() - self.coeffecients.min())
-        self.rho_meter_opt = self._calc_density(self.coeffecients_opt)
-        return (res, self.coeffecients_opt, self.rho_meter_opt)
+        self.coeffecients_opt = res.x
+        self.rho_meter_opt = self._calc_density(res.x)
+        return res
