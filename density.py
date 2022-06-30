@@ -62,5 +62,5 @@ class Densitometer:
             obj_func, self.coeffecients, **kwargs
         )
         self.coeffecients_opt = res.x
-        self.rho_meter_opt = res.fun
+        self.rho_meter_opt = self._calc_density(res.x)
         return res
