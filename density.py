@@ -63,7 +63,7 @@ class Densitometer:
             )
         elif method == "shgo":
             res = shgo(
-                obj_func, [(0, 1)] * len(self.coeffecients), **kwargs
+                obj_func, [(-1e4, 1e4)] * len(self.coeffecients), **kwargs
             )
         else:
             raise NotImplementedError
