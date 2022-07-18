@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 
-from scipy.optimize import minimize
+from scipy.optimize import minimize, shgo
 from sklearn.metrics import mean_squared_error
 
 
@@ -52,15 +52,21 @@ class Densitometer:
 
         return rho_tp.to_numpy()
 
-    def optimize_error(self, **kwargs):
+    def optimize_error(self, method="shgo", **kwargs):
         def obj_func(K_arr):
             return mean_squared_error(
                 self.rho_nel, self._calc_density(K_arr)
             )
-
-        res = minimize(
-            obj_func, self.coeffecients, **kwargs
-        )
+        if method == "minimize":
+            res = minimize(
+                obj_func, self.coeffecients, **kwargs
+            )
+        elif method == "shgo":
+            res = shgo(
+                obj_func, [(0, 1)] * len(self.coeffecients), **kwargs
+            )
+        else:
+            raise NotImplementedError
         self.coeffecients_opt = res.x
         self.rho_meter_opt = self._calc_density(res.x)
         return res
