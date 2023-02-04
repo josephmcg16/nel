@@ -84,7 +84,7 @@ def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=
     if vapor_phase:
         df = df[df['Phase'] == "vapor"]
 
-        return df
+    return df
 
 def scrape_nist_satcurve(fluid, pressure_range):
     pressure_inc = (pressure_range[-1] - pressure_range[0]) / (len(pressure_range) - 1)
