@@ -79,9 +79,20 @@ def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=
         filter_near_sat_curve(df, df_sat, sat_curve_filter)
 
     if vapor_phase:
+<<<<<<< HEAD
         df = df[df['Phase'] == "vapor"]
 
 
     # df indices now range from 0 to number of rows
     df = df.reset_index(drop=True)
+=======
+        return df[df['Phase'] == "vapor"]
+    else:
+        return df
+
+
+def scrape_nist_satcurve(fluid, pressure_range):
+    pressure_inc = (pressure_range[-1] - pressure_range[0]) / (len(pressure_range) - 1)
+    df = pd.read_html(f"https://webbook.nist.gov/cgi/fluid.cgi?PLow={pressure_range[0]}&PHigh={pressure_range[-1]}&PInc={pressure_inc}&Digits=5&ID={NIST_ID_DICT[fluid]}&Action=Load&Type=SatT&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=cP&STUnit=N%2Fm&RefState=DEF#Vapor")[0]
+>>>>>>> b483a856ecdf04d32d6745f77ac71f41c72566e2
     return df
