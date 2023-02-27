@@ -59,7 +59,7 @@ def filter_near_sat_curve(df, df_sat, n_samples):
     return df.drop(df.index[closest_samples], inplace=False)
 
 
-def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=0, vapor_phase=True, callback=False):
+def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=0, vapor_phase=False, callback=False):
     df = pd.DataFrame()
 
     if callback:
