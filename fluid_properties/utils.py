@@ -64,11 +64,11 @@ def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=
 
     if callback:
         for isotherm in tqdm(temperature_range):
-            df = df.append(scrape_nist_isotherm(fluid, isotherm, pressure_range))
+            df = pd.concat([df, scrape_nist_isotherm(fluid, isotherm, pressure_range)])
 
     else:
         for isotherm in temperature_range:
-            df = df.append(scrape_nist_isotherm(fluid, isotherm, pressure_range))
+            df = pd.concat([df, scrape_nist_isotherm(fluid, isotherm, pressure_range)])
 
     # df indices now range from 0 to number of rows in df
     df = df.reset_index(drop=True)
