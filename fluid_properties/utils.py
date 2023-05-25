@@ -36,6 +36,8 @@ def scrape_nist_isotherm(fluid, isotherm, pressure_range):
 def scrape_nist_satcurve(fluid, pressure_range):
     pressure_inc = (pressure_range[-1] - pressure_range[0]) / (len(pressure_range) - 1)
     df = pd.read_html(f"https://webbook.nist.gov/cgi/fluid.cgi?PLow={pressure_range[0]}&PHigh={pressure_range[-1]}&PInc={pressure_inc}&Digits=5&ID={NIST_ID_DICT[fluid]}&Action=Load&Type=SatT&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=cP&STUnit=N%2Fm&RefState=DEF#Vapor")[0]
+    df['pi'] = df['Pressure (bar)'] / 50
+    df['tau'] = 300 / (df['Temperature (C)'] + 273.15)
     return df
 
 
@@ -84,9 +86,4 @@ def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=
     if vapor_phase:
         df = df[df['Phase'] == "vapor"]
 
-    return df
-
-def scrape_nist_satcurve(fluid, pressure_range):
-    pressure_inc = (pressure_range[-1] - pressure_range[0]) / (len(pressure_range) - 1)
-    df = pd.read_html(f"https://webbook.nist.gov/cgi/fluid.cgi?PLow={pressure_range[0]}&PHigh={pressure_range[-1]}&PInc={pressure_inc}&Digits=5&ID={NIST_ID_DICT[fluid]}&Action=Load&Type=SatT&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=cP&STUnit=N%2Fm&RefState=DEF#Vapor")[0]
     return df
