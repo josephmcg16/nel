@@ -1,7 +1,6 @@
 from typing import Any
 import pandas as pd
 from attr import dataclass
-from py import test
 
 
 @dataclass
