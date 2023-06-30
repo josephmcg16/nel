@@ -21,10 +21,9 @@ Y = df['Density (kg/m3)'].to_numpy()
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
-model = FluidDensityPredictor()
-model.fit(X_train, Y_train)
-
-predictions = model.predict(X_test)
+predictor = FluidDensityPredictor()
+predictor.fit(X_train, Y_train)
+predictions = predictor.predict(X_test)
 
 df_test = pd.DataFrame()
 df_test['Temperature (C)'], df_test['Pressure (bar)'] = X_test.T
@@ -42,7 +41,9 @@ fig.add_trace(
         y=df_test['Pressure (bar)'],
         z=df_test['Density (kg/m3)'],
         mode='markers',
-        marker=dict(size=2)
+        marker=dict(size=2),
+        xaxis='x1',
+        yaxis='y1'
     ))
 fig.add_trace(
     go.Scatter3d(
