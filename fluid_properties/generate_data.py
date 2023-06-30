@@ -1,9 +1,17 @@
 import numpy as np
 import plotly.express as px
-from utils import scrape_nist_data
+from .utils import scrape_nist_data
 
 
-def generate_data(fluid, temp_min, temp_max, temp_increment, press_min, press_max, press_increment, vapor_phase=True, callback=True, root_path='.'):
+def generate_data(data_config, vapor_phase=True, callback=True, root_path='.'):
+    fluid = data_config["FLUID"]
+    temp_min = data_config["TEMP_MIN"]
+    temp_max = data_config["TEMP_MAX"]
+    temp_increment = data_config["TEMP_INCREMENT"]
+    press_min = data_config["PRESS_MIN"]
+    press_max = data_config["PRESS_MAX"]
+    press_increment = data_config["PRESS_INCREMENT"]
+
     temperature_range = np.arange(
         temp_min, temp_max + temp_increment, temp_increment)  # degC
     pressure_range = np.arange(
