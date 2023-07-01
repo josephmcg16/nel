@@ -1,39 +1,65 @@
 import pandas as pd
 import numpy as np
-
+from tqdm import tqdm
+import yaml
 from sklearn.model_selection import train_test_split
-
+from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error
 import plotly.express as px
 import plotly.graph_objects as go
+from fluid_properties.regression import DataLoader, FluidDensityPredictor
 
-from fluid_properties.regression import FluidDensityPredictor, DataLoader, calculate_error
 
-
-config = {
-    "path": "fluid_properties/data/CO2_nist_data.csv"
-}
-
-loader = DataLoader(config)
+with open('config.yaml') as config_file:
+    CONFIG = yaml.load(config_file, Loader=yaml.FullLoader)
+loader = DataLoader(CONFIG)
 df = loader.load_data()
 
 X = df[['Temperature (C)', 'Pressure (bar)']].to_numpy()
 Y = df['Density (kg/m3)'].to_numpy()
 
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X, Y, test_size=0.2, random_state=CONFIG['random_state'])
 
 predictor = FluidDensityPredictor()
-predictor.fit(X_train, Y_train)
-predictions = predictor.predict(X_test)
+predictor.fit(X, Y)
+
+df_errors = pd.DataFrame(columns=['mean_squared_error', 'mean_absolute_error', 'mean_absolute_percentage_error'])
+df_coefficients = pd.DataFrame(columns=predictor.model.named_steps['poly'].get_feature_names())
+for split in tqdm(range(CONFIG['num_splits'])):
+    X_learn, X_val, Y_learn, Y_val = train_test_split(
+        X_train, Y_train, shuffle=True, test_size=np.random.uniform(0.2, 0.5)
+    )
+
+    predictor.fit(X_learn, Y_learn)
+
+    predictions = predictor.predict(X_val)
+
+    mse_error = mean_squared_error(Y_val, predictions)
+    mae_error = mean_absolute_error(Y_val, predictions)
+    mape_error = mean_absolute_percentage_error(Y_val, predictions)
+
+    df_errors.loc[split] = [mse_error, mae_error, mape_error]
+    df_coefficients.loc[split] = predictor.model.named_steps['linear'].coef_
 
 df_test = pd.DataFrame()
 df_test['Temperature (C)'], df_test['Pressure (bar)'] = X_test.T
 df_test['Density (kg/m3)'] = Y_test
-df_test['Predicted Density (kg/m3)'] = predictions
+df_test['Predicted Density (kg/m3)'] = predictor.predict(X_test)
 df_test['Absolute Error, Density'] = df_test['Predicted Density (kg/m3)'] - df_test['Density (kg/m3)']
+df_test['Squared Error, Density'] = (df_test['Predicted Density (kg/m3)'] - df_test['Density (kg/m3)']) ** 2
 
-fig = px.scatter(df_test, x='Temperature (C)', y='Pressure (bar)', color='Absolute Error, Density')
+df_coefficients.mean().to_csv('data/CO2_coefficients.csv', index_label='Feature Name', header=['Coeffecient'])
+df_errors.to_csv('data/CO2_regression_errors.csv', index_label='Split Number')
+
+# Plot of Pressure vs Temperature colored by absolute error on the density
+fig = px.scatter(df_test, x='Temperature (C)',
+                 y='Pressure (bar)', color='Absolute Error, Density')
+fig.update_traces(marker=dict(size=2))
+fig.write_image('figures/CO2_desnity_error_plot.pdf')
+fig.update_traces(marker=dict(size=4))
 fig.show()
 
+# 3d scatter plot of actual vs predicted density
 fig = go.Figure()
 fig.add_trace(
     go.Scatter3d(
@@ -42,8 +68,7 @@ fig.add_trace(
         z=df_test['Density (kg/m3)'],
         mode='markers',
         marker=dict(size=2),
-        xaxis='x1',
-        yaxis='y1'
+        name='Actual Density'
     ))
 fig.add_trace(
     go.Scatter3d(
@@ -51,6 +76,23 @@ fig.add_trace(
         y=df_test['Pressure (bar)'],
         z=df_test['Predicted Density (kg/m3)'],
         mode='markers',
-        marker=dict(size=2)
+        marker=dict(size=2),
+        name='Predicted Density'
     ))
+fig.update_layout(
+    scene_xaxis_title="Pressure (bar)",
+    scene_yaxis_title="Temperature (C)",
+    scene_zaxis_title="Density (kg/m3)",
+)
+fig.show()
+
+# Histograms of errors over the splits
+fig = px.histogram(df_errors, x='mean_squared_error')
+fig.write_image('figures/CO2_density_mse_histogram.pdf')
+fig.show()
+fig = px.histogram(df_errors, x='mean_absolute_error')
+fig.write_image('figures/CO2_density_mae_histogram.pdf')
+fig.show()
+fig = px.histogram(df_errors, x='mean_absolute_percentage_error')
+fig.write_image('figures/CO2_density_mape_histogram.pdf')
 fig.show()

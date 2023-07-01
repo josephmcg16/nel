@@ -87,3 +87,4 @@ def scrape_nist_data(fluid, temperature_range, pressure_range, sat_curve_filter=
         df = df[df['Phase'] == "vapor"]
 
     return df
+

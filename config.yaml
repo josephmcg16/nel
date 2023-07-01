@@ -1,0 +1,3 @@
+path: "data/CO2_nist_data.csv"
+num_splits: 500
+random_state: 42

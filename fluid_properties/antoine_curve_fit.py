@@ -5,13 +5,13 @@ from utils import scrape_nist_satcurve
 
 
 class antoineCurveFit:
-    def __init__(self, fluid, press_min, press_max, press_increment, root_path='.'):
-        self.fluid = fluid
-        self.press_min = press_min
-        self.press_max = press_max
-        self.press_increment = press_increment
+    def __init__(self, config, root_path='.'):
+        self.fluid = config['FLUID']
+        self.press_min = config['PRESS_MIN']
+        self.press_max = config['PRESS_MAX']
+        self.press_increment = config['PRESS_INCREMENT']
         self.pressure_range = np.arange(
-            press_min, press_max + press_increment, press_increment)
+            self.press_min, self.press_max + self.press_increment, self.press_increment)
         self.df_sat = scrape_nist_satcurve(self.fluid, self.pressure_range)
         self.temperature = self.df_sat['Temperature (C)'].to_numpy() + 273.15
         self.pressure = self.df_sat['Pressure (bar)'].to_numpy()
@@ -58,16 +58,17 @@ class antoineCurveFit:
 
 
 if __name__ == "__main__":
-    FLUID = "CO2"
-    PRESS_MIN = 39.69  # bar
-    PRESS_MAX = 46  # bar
-    PRESS_INCREMENT = 0.01  # bar
+    config = {
+        "FLUID": "CO2",
+        "PRESS_MIN": 39.69,
+        "PRESS_MAX": 46,
+        "PRESS_INCREMENT": 0.01}
 
-    antoine_curve = antoineCurveFit(FLUID, PRESS_MIN, PRESS_MAX, PRESS_INCREMENT)
+    antoine_curve = antoineCurveFit(config)
     coeffecients, df_sat = antoine_curve.fit_data()
 
     fig = antoine_curve.plot_data()
     fig.show()
 
-    df_sat.to_csv(f'data/{FLUID}_sat_curve.csv', index=False)
-    np.savetxt(f'data/{FLUID}_antoine_coeffecients.txt', coeffecients)
+    df_sat.to_csv(f'data/{config["FLUID"]}_sat_curve.csv', index=False)
+    np.savetxt(f'data/{config["FLUID"]}_antoine_coeffecients.txt', coeffecients)
