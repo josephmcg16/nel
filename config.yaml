@@ -1,3 +1,5 @@
 path: "data/CO2_nist_data.csv"
 num_splits: 500
+poly_degree: 4
 random_state: 42
+test_size: 0.2

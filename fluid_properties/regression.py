@@ -33,8 +33,14 @@ class DataLoader:
 
 
 class FluidDensityPredictor:
-    def __init__(self, model=Pipeline([('scaler', StandardScaler()), ('poly', PolynomialFeatures(degree=11)),
-                                       ('linear', LinearRegression(fit_intercept=False))])):
+    def __init__(self, config=None, model=None):
+        self.config = config
+        if model is None:
+            POLY_DEGREE = self.config["poly_degree"] if self.config["poly_degree"] is not None else 11
+            model = Pipeline([
+                ('scaler', StandardScaler()), 
+                ('poly', PolynomialFeatures(degree=POLY_DEGREE)),
+                ('linear', LinearRegression(fit_intercept=False))])
         self.model = model
 
     def fit(self, X, y):
