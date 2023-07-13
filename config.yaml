@@ -1,5 +1,16 @@
-path: "data/CO2_nist_data.csv"
-num_splits: 500
-poly_degree: 4
+# Data Parameters
+FLUID: "CO2"
+data_path: "data/CO2_nist_data.csv"
+output_dir: "outputs"
+
+# Model parameters
+num_splits: 200
+max_poly_degree: 3
 random_state: 42
-test_size: 0.2
+test_size: 0.05
+
+# Features
+x_feature: "Temperature (C)"
+y_feature: "Pressure (bar)"
+z_feature: "Density (kg/m3)"
+error_feature: "Absolute Error, Density (kg/m3)"
