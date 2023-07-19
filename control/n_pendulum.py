@@ -110,7 +110,7 @@ class nBodyPendulum:
     
 
 if __name__ == "__main__":
-    from utils import animate
+    from utils import n_pendulum_animation
     NUM_OF_MASSES = 100
     MASS = 1  # kg
     LENGTH = 1  # m
@@ -122,5 +122,5 @@ if __name__ == "__main__":
     pendulum = nBodyPendulum(NUM_OF_MASSES, MASS, LENGTH,
                              np.linspace(0, t_final, t_final * FPS), theta0, omega0)
     pendulum.solve(progress=True)
-    ani = animate(pendulum)
+    ani = n_pendulum_animation(pendulum)
     ani.save('pendulum.gif', fps=FPS)

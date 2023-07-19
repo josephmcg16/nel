@@ -62,7 +62,7 @@ def double_pendulum_animation(df, dt):
     return ani, fig
 
 
-def animate(pendulum: nBodyPendulum) -> FuncAnimation:
+def n_pendulum_animation(pendulum: nBodyPendulum) -> FuncAnimation:
     """
     Create an animation of the n-pendulum system
 
