@@ -1,0 +1,2003 @@
+<?xml version='1.0' encoding='utf-8'?>
+<a:Channels>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ActualStatus</a:Command>
+    <a:Description>4in USM ActualStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.AdjustQt</a:Command>
+    <a:Description>4in USM AdjustQt</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Compress_Extern</a:Command>
+    <a:Description>4in USM Compress_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.EVC_NormFlow</a:Command>
+    <a:Description>4in USM EVC_NormFlow</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Firmware_CRC</a:Command>
+    <a:Description>4in USM Firmware_CRC</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Firmware_Version</a:Command>
+    <a:Description>4in USM Firmware_Version</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Flowrate</a:Command>
+    <a:Description>4in USM Flowrate</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ForwardVolume</a:Command>
+    <a:Description>4in USM ForwardVolume</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ForwardVolumeErr</a:Command>
+    <a:Description>4in USM ForwardVolumeErr</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ForwardVolumeTotal</a:Command>
+    <a:Description>4in USM ForwardVolumeTotal</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.GlobalStatus</a:Command>
+    <a:Description>4in USM GlobalStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Impulse_Factor</a:Command>
+    <a:Description>4in USM Impulse_Factor</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Impulse_Frequency</a:Command>
+    <a:Description>4in USM Impulse_Frequency</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.MetrologyCRC</a:Command>
+    <a:Description>4in USM MetrologyCRC</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Parameter_CRC_Adjust</a:Command>
+    <a:Description>4in USM Parameter_CRC_Adjust</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Parameter_CRC_ID</a:Command>
+    <a:Description>4in USM Parameter_CRC_ID</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Parameter_CRC_Sensor</a:Command>
+    <a:Description>4in USM Parameter_CRC_Sensor</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Parameter_CRC_User</a:Command>
+    <a:Description>4in USM Parameter_CRC_User</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.PathNumber</a:Command>
+    <a:Description>4in USM PathNumber</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Pressure_Act</a:Command>
+    <a:Description>4in USM Pressure_Act</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Pressure_Extern</a:Command>
+    <a:Description>4in USM Pressure_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ReverseVolume</a:Command>
+    <a:Description>4in USM ReverseVolume</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ReverseVolumeErr</a:Command>
+    <a:Description>4in USM ReverseVolumeErr</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.ReverseVolumeTotal</a:Command>
+    <a:Description>4in USM ReverseVolumeTotal</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.RTC_Date</a:Command>
+    <a:Description>4in USM RTC_Date</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.RTC_Time</a:Command>
+    <a:Description>4in USM RTC_Time</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Serial_Device</a:Command>
+    <a:Description>4in USM Serial_Device</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 1-1</a:Command>
+    <a:Description>4in USM SOS 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 1-2</a:Command>
+    <a:Description>4in USM SOS 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 1-3</a:Command>
+    <a:Description>4in USM SOS 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 1-4</a:Command>
+    <a:Description>4in USM SOS 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 2-1</a:Command>
+    <a:Description>4in USM SOS 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 2-2</a:Command>
+    <a:Description>4in USM SOS 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 2-3</a:Command>
+    <a:Description>4in USM SOS 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOS 2-4</a:Command>
+    <a:Description>4in USM SOS 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SOSTheoretic</a:Command>
+    <a:Description>4in USM SOSTheoretic</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SpeedOfSound</a:Command>
+    <a:Description>4in USM SpeedOfSound</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.SummaryStatus</a:Command>
+    <a:Description>4in USM SummaryStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Temperature_Act</a:Command>
+    <a:Description>4in USM Temperature_Act</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.Temperature_Extern</a:Command>
+    <a:Description>4in USM Temperature_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.TotalizerResolution</a:Command>
+    <a:Description>4in USM TotalizerResolution</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VelocityOfGas</a:Command>
+    <a:Description>4in USM VelocityOfGas</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 1-1</a:Command>
+    <a:Description>4in USM VOG 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 1-2</a:Command>
+    <a:Description>4in USM VOG 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 1-3</a:Command>
+    <a:Description>4in USM VOG 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 1-4</a:Command>
+    <a:Description>4in USM VOG 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 2-1</a:Command>
+    <a:Description>4in USM VOG 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 2-2</a:Command>
+    <a:Description>4in USM VOG 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 2-3</a:Command>
+    <a:Description>4in USM VOG 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 1.VOG 2-4</a:Command>
+    <a:Description>4in USM VOG 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 1-1</a:Command>
+    <a:Description>4in USM AcceptanceRate 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 1-2</a:Command>
+    <a:Description>4in USM AcceptanceRate 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 1-3</a:Command>
+    <a:Description>4in USM AcceptanceRate 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 1-4</a:Command>
+    <a:Description>4in USM AcceptanceRate 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 2-1</a:Command>
+    <a:Description>4in USM AcceptanceRate 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 2-2</a:Command>
+    <a:Description>4in USM AcceptanceRate 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 2-3</a:Command>
+    <a:Description>4in USM AcceptanceRate 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AcceptanceRate 2-4</a:Command>
+    <a:Description>4in USM AcceptanceRate 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-1 AB</a:Command>
+    <a:Description>4in USM AGC 1-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-1 BA</a:Command>
+    <a:Description>4in USM AGC 1-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-2 AB</a:Command>
+    <a:Description>4in USM AGC 1-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-2 BA</a:Command>
+    <a:Description>4in USM AGC 1-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-3 AB</a:Command>
+    <a:Description>4in USM AGC 1-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-3 BA</a:Command>
+    <a:Description>4in USM AGC 1-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-4 AB</a:Command>
+    <a:Description>4in USM AGC 1-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 1-4 BA</a:Command>
+    <a:Description>4in USM AGC 1-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-1 AB</a:Command>
+    <a:Description>4in USM AGC 2-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-1 BA</a:Command>
+    <a:Description>4in USM AGC 2-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-2 AB</a:Command>
+    <a:Description>4in USM AGC 2-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-2 BA</a:Command>
+    <a:Description>4in USM AGC 2-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-3 AB</a:Command>
+    <a:Description>4in USM AGC 2-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-3 BA</a:Command>
+    <a:Description>4in USM AGC 2-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-4 AB</a:Command>
+    <a:Description>4in USM AGC 2-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.AGC 2-4 BA</a:Command>
+    <a:Description>4in USM AGC 2-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.DiagStatus</a:Command>
+    <a:Description>4in USM DiagStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 1-1</a:Command>
+    <a:Description>4in USM PathStatus 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 1-2</a:Command>
+    <a:Description>4in USM PathStatus 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 1-3</a:Command>
+    <a:Description>4in USM PathStatus 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 1-4</a:Command>
+    <a:Description>4in USM PathStatus 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 2-1</a:Command>
+    <a:Description>4in USM PathStatus 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 2-2</a:Command>
+    <a:Description>4in USM PathStatus 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 2-3</a:Command>
+    <a:Description>4in USM PathStatus 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.PathStatus 2-4</a:Command>
+    <a:Description>4in USM PathStatus 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-1 AB</a:Command>
+    <a:Description>4in USM SNR 1-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-1 BA</a:Command>
+    <a:Description>4in USM SNR 1-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-2 AB</a:Command>
+    <a:Description>4in USM SNR 1-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-2 BA</a:Command>
+    <a:Description>4in USM SNR 1-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-3 AB</a:Command>
+    <a:Description>4in USM SNR 1-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-3 BA</a:Command>
+    <a:Description>4in USM SNR 1-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-4 AB</a:Command>
+    <a:Description>4in USM SNR 1-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 1-4 BA</a:Command>
+    <a:Description>4in USM SNR 1-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-1 AB</a:Command>
+    <a:Description>4in USM SNR 2-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-1 BA</a:Command>
+    <a:Description>4in USM SNR 2-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-2 AB</a:Command>
+    <a:Description>4in USM SNR 2-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-2 BA</a:Command>
+    <a:Description>4in USM SNR 2-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-3 AB</a:Command>
+    <a:Description>4in USM SNR 2-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-3 BA</a:Command>
+    <a:Description>4in USM SNR 2-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-4 AB</a:Command>
+    <a:Description>4in USM SNR 2-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.SNR 2-4 BA</a:Command>
+    <a:Description>4in USM SNR 2-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.4in USM.Block 2.WarningActivationMask</a:Command>
+    <a:Description>4in USM WarningActivationMask</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ActualStatus</a:Command>
+    <a:Description>8in USM ActualStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.AdjustQt</a:Command>
+    <a:Description>8in USM AdjustQt</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Compress_Extern</a:Command>
+    <a:Description>8in USM Compress_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.EVC_NormFlow</a:Command>
+    <a:Description>8in USM EVC_NormFlow</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Firmware_CRC</a:Command>
+    <a:Description>8in USM Firmware_CRC</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Firmware_Version</a:Command>
+    <a:Description>8in USM Firmware_Version</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Flowrate</a:Command>
+    <a:Description>8in USM Flowrate</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ForwardVolume</a:Command>
+    <a:Description>8in USM ForwardVolume</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ForwardVolumeErr</a:Command>
+    <a:Description>8in USM ForwardVolumeErr</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ForwardVolumeTotal</a:Command>
+    <a:Description>8in USM ForwardVolumeTotal</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.GlobalStatus</a:Command>
+    <a:Description>8in USM GlobalStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Impulse_Factor</a:Command>
+    <a:Description>8in USM Impulse_Factor</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Impulse_Frequency</a:Command>
+    <a:Description>8in USM Impulse_Frequency</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.MetrologyCRC</a:Command>
+    <a:Description>8in USM MetrologyCRC</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Parameter_CRC_Adjust</a:Command>
+    <a:Description>8in USM Parameter_CRC_Adjust</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Parameter_CRC_ID</a:Command>
+    <a:Description>8in USM Parameter_CRC_ID</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Parameter_CRC_Sensor</a:Command>
+    <a:Description>8in USM Parameter_CRC_Sensor</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Parameter_CRC_User</a:Command>
+    <a:Description>8in USM Parameter_CRC_User</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.PathNumber</a:Command>
+    <a:Description>8in USM PathNumber</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Pressure_Act</a:Command>
+    <a:Description>8in USM Pressure_Act</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Pressure_Extern</a:Command>
+    <a:Description>8in USM Pressure_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ReverseVolume</a:Command>
+    <a:Description>8in USM ReverseVolume</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ReverseVolumeErr</a:Command>
+    <a:Description>8in USM ReverseVolumeErr</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.ReverseVolumeTotal</a:Command>
+    <a:Description>8in USM ReverseVolumeTotal</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.RTC_Date</a:Command>
+    <a:Description>8in USM RTC_Date</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.RTC_Time</a:Command>
+    <a:Description>8in USM RTC_Time</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Serial_Device</a:Command>
+    <a:Description>8in USM Serial_Device</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 1-1</a:Command>
+    <a:Description>8in USM SOS 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 1-2</a:Command>
+    <a:Description>8in USM SOS 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 1-3</a:Command>
+    <a:Description>8in USM SOS 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 1-4</a:Command>
+    <a:Description>8in USM SOS 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 2-1</a:Command>
+    <a:Description>8in USM SOS 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 2-2</a:Command>
+    <a:Description>8in USM SOS 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 2-3</a:Command>
+    <a:Description>8in USM SOS 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOS 2-4</a:Command>
+    <a:Description>8in USM SOS 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SOSTheoretic</a:Command>
+    <a:Description>8in USM SOSTheoretic</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SpeedOfSound</a:Command>
+    <a:Description>8in USM SpeedOfSound</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.SummaryStatus</a:Command>
+    <a:Description>8in USM SummaryStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Temperature_Act</a:Command>
+    <a:Description>8in USM Temperature_Act</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.Temperature_Extern</a:Command>
+    <a:Description>8in USM Temperature_Extern</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.TotalizerResolution</a:Command>
+    <a:Description>8in USM TotalizerResolution</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VelocityOfGas</a:Command>
+    <a:Description>8in USM VelocityOfGas</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 1-1</a:Command>
+    <a:Description>8in USM VOG 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 1-2</a:Command>
+    <a:Description>8in USM VOG 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 1-3</a:Command>
+    <a:Description>8in USM VOG 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 1-4</a:Command>
+    <a:Description>8in USM VOG 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 2-1</a:Command>
+    <a:Description>8in USM VOG 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 2-2</a:Command>
+    <a:Description>8in USM VOG 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 2-3</a:Command>
+    <a:Description>8in USM VOG 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 1.VOG 2-4</a:Command>
+    <a:Description>8in USM VOG 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 1-1</a:Command>
+    <a:Description>8in USM AcceptanceRate 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 1-2</a:Command>
+    <a:Description>8in USM AcceptanceRate 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 1-3</a:Command>
+    <a:Description>8in USM AcceptanceRate 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 1-4</a:Command>
+    <a:Description>8in USM AcceptanceRate 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 2-1</a:Command>
+    <a:Description>8in USM AcceptanceRate 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 2-2</a:Command>
+    <a:Description>8in USM AcceptanceRate 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 2-3</a:Command>
+    <a:Description>8in USM AcceptanceRate 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AcceptanceRate 2-4</a:Command>
+    <a:Description>8in USM AcceptanceRate 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-1 AB</a:Command>
+    <a:Description>8in USM AGC 1-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-1 BA</a:Command>
+    <a:Description>8in USM AGC 1-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-2 AB</a:Command>
+    <a:Description>8in USM AGC 1-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-2 BA</a:Command>
+    <a:Description>8in USM AGC 1-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-3 AB</a:Command>
+    <a:Description>8in USM AGC 1-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-3 BA</a:Command>
+    <a:Description>8in USM AGC 1-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-4 AB</a:Command>
+    <a:Description>8in USM AGC 1-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 1-4 BA</a:Command>
+    <a:Description>8in USM AGC 1-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-1 AB</a:Command>
+    <a:Description>8in USM AGC 2-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-1 BA</a:Command>
+    <a:Description>8in USM AGC 2-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-2 AB</a:Command>
+    <a:Description>8in USM AGC 2-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-2 BA</a:Command>
+    <a:Description>8in USM AGC 2-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-3 AB</a:Command>
+    <a:Description>8in USM AGC 2-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-3 BA</a:Command>
+    <a:Description>8in USM AGC 2-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-4 AB</a:Command>
+    <a:Description>8in USM AGC 2-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.AGC 2-4 BA</a:Command>
+    <a:Description>8in USM AGC 2-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.DiagStatus</a:Command>
+    <a:Description>8in USM DiagStatus</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 1-1</a:Command>
+    <a:Description>8in USM PathStatus 1-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 1-2</a:Command>
+    <a:Description>8in USM PathStatus 1-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 1-3</a:Command>
+    <a:Description>8in USM PathStatus 1-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 1-4</a:Command>
+    <a:Description>8in USM PathStatus 1-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 2-1</a:Command>
+    <a:Description>8in USM PathStatus 2-1</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 2-2</a:Command>
+    <a:Description>8in USM PathStatus 2-2</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 2-3</a:Command>
+    <a:Description>8in USM PathStatus 2-3</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.PathStatus 2-4</a:Command>
+    <a:Description>8in USM PathStatus 2-4</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-1 AB</a:Command>
+    <a:Description>8in USM SNR 1-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-1 BA</a:Command>
+    <a:Description>8in USM SNR 1-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-2 AB</a:Command>
+    <a:Description>8in USM SNR 1-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-2 BA</a:Command>
+    <a:Description>8in USM SNR 1-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-3 AB</a:Command>
+    <a:Description>8in USM SNR 1-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-3 BA</a:Command>
+    <a:Description>8in USM SNR 1-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-4 AB</a:Command>
+    <a:Description>8in USM SNR 1-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 1-4 BA</a:Command>
+    <a:Description>8in USM SNR 1-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-1 AB</a:Command>
+    <a:Description>8in USM SNR 2-1 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-1 BA</a:Command>
+    <a:Description>8in USM SNR 2-1 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-2 AB</a:Command>
+    <a:Description>8in USM SNR 2-2 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-2 BA</a:Command>
+    <a:Description>8in USM SNR 2-2 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-3 AB</a:Command>
+    <a:Description>8in USM SNR 2-3 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-3 BA</a:Command>
+    <a:Description>8in USM SNR 2-3 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-4 AB</a:Command>
+    <a:Description>8in USM SNR 2-4 AB</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.SNR 2-4 BA</a:Command>
+    <a:Description>8in USM SNR 2-4 BA</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+  <a:Channel>
+    <a:CalculationModifier/>
+    <a:CanLogAsynchronously>true</a:CanLogAsynchronously>
+    <a:Command>Modbus RTU Serial.8in USM.Block 2.WarningActivationMask</a:Command>
+    <a:Description>8in USM WarningActivationMask</a:Description>
+    <a:IsEnabled>true</a:IsEnabled>
+    <a:MaximumLoggingFrequency>1</a:MaximumLoggingFrequency>
+    <a:MultiplexerDelay/>
+    <a:ParentDevice z:Ref="i13" />
+  </a:Channel>
+</a:Channels>
