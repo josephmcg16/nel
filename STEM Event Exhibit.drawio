@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T15:28:05.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="3jvRT9S7t9_IMIbqRkYf" version="22.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-13T15:28:41.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="IEWHi89vMLptowCxCazZ" version="22.0.0" type="github" pages="2">
   <diagram name="Page-1" id="HHMUkYn5-Q8uycMOV6Rx">
-    <mxGraphModel dx="1678" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5B46NlQeET8LCXm7X7rs-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.table;" vertex="1" parent="1">
-          <mxGeometry x="44" y="200" width="520" height="520" as="geometry" />
+          <mxGeometry x="44" y="151" width="520" height="520" as="geometry" />
         </mxCell>
         <mxCell id="5B46NlQeET8LCXm7X7rs-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.table;" vertex="1" parent="1">
-          <mxGeometry x="604" y="200" width="520" height="520" as="geometry" />
+          <mxGeometry x="604" y="151" width="520" height="520" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="54" y="300" width="468.7" height="290" as="geometry" />
+          <mxGeometry x="54" y="251" width="468.7" height="290" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-2" value="Digital Multimeter" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/736x/e3/e0/60/e3e0609624d3f6f6a408bfed1a3582a9.jpg;" vertex="1" parent="rAlAe2UiYGz6RwaufVNc-1">
           <mxGeometry x="156.0010474529661" y="199.99555555555554" width="183.98244444444447" height="122.44444444444446" as="geometry" />
@@ -66,20 +66,20 @@
             <mxPoint x="-15" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAlAe2UiYGz6RwaufVNc-20" value="Circuit Board" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Arduino_Nano_v3_0.svg/1752px-Arduino_Nano_v3_0.svg.png;" vertex="1" parent="rAlAe2UiYGz6RwaufVNc-1">
+        <mxCell id="rAlAe2UiYGz6RwaufVNc-20" value="Circuit Board&#xa;&amp;&#xa;Micro-controller" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Arduino_Nano_v3_0.svg/1752px-Arduino_Nano_v3_0.svg.png;" vertex="1" parent="rAlAe2UiYGz6RwaufVNc-1">
           <mxGeometry x="186" y="130" width="34.23" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-13" value="Laptop&lt;br&gt;(CAD Model of Facilities)" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
-          <mxGeometry x="710" y="430" width="141.94624885710442" height="116.00000000000001" as="geometry" />
+          <mxGeometry x="710" y="381" width="141.94624885710442" height="116.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-10" value="Temperature &#xa;Measuring Instrument" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.fruugo.com/product/0/64/681844640_max.jpg;" vertex="1" parent="1">
-          <mxGeometry x="438.19844799795464" y="436.7212152376056" width="84.50100698461671" height="84.50100698461671" as="geometry" />
+          <mxGeometry x="438.19844799795464" y="387.7212152376056" width="84.50100698461671" height="84.50100698461671" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-16" value="Laptop&lt;br&gt;(TUV SUD Slideshow)" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
-          <mxGeometry x="902.01" y="430" width="141.94624885710442" height="116.00000000000001" as="geometry" />
+          <mxGeometry x="902.01" y="381" width="141.94624885710442" height="116.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="rAlAe2UiYGz6RwaufVNc-22" value="Technical Drawings" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="230" width="152.98" height="101.99" as="geometry" />
+          <mxGeometry x="880" y="181" width="152.98" height="101.99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
