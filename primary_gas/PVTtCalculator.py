@@ -77,7 +77,8 @@ class PVTtCalculator:
     these volumes to a certain pressure. It calculates the mass flow rate based on changes in density and known volumes.
 
     Attributes:
-        timestamps (np.ndarray): Array containing the start and end times of the test.
+        t0 (float): Start time of the test.
+        tf (float): End time of the test.
         density_tank_initial (np.ndarray): Initial density of the gas in the tank (kg/m3).
         density_tank_final (np.ndarray): Final density of the gas in the tank (kg/m3).
         density_inventory_initial (np.ndarray): Initial density of the gas in the inventory volume (kg/m3).
