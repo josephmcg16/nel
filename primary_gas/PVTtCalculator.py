@@ -88,7 +88,8 @@ class PVTtCalculator:
         mass_flowrate (np.ndarray): Calculated mass flow rate (kg/s).
     """
 
-    timestamps: np.ndarray  # s
+    t0: float  # s
+    tf: float  # s
     density_tank_initial: np.ndarray  # kg/m3
     density_tank_final: np.ndarray  # kg/m3
     density_inventory_initial: np.ndarray  # kg/m3
@@ -100,9 +101,6 @@ class PVTtCalculator:
         """
         Additional initializations that depend on the fields defined in the dataclass.
         """
-        self.timestamps = timestamps
-        self.t0 = timestamps[0]
-        self.tf = timestamps[-1]
 
         self.mass_tank_initial = self.volume_tank * self.density_tank_initial  # kg
         self.mass_tank_final = self.volume_tank * self.density_tank_final
@@ -163,7 +161,8 @@ if __name__ == "__main__":
     # simulating sampled data over n scans
     num_of_scans = 600
 
-    timestamps = np.linspace(0, 300, num_of_scans)  # s
+    t0 = 0  # s
+    tf = 3600  # s
 
     density_tank_initial = np.random.normal(0.06, 0.05, size=num_of_scans)  # kg/m3
     density_tank_final = np.random.normal(34.2, 0.2, size=num_of_scans)  # kg/m3
@@ -174,7 +173,8 @@ if __name__ == "__main__":
 
     # perform consultant calcs
     pg_calc = PVTtCalculator(
-            timestamps,
+            t0,
+            tf,
             density_tank_initial, 
             density_tank_final,
             density_inventory_initial, 
