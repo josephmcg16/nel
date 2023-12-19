@@ -160,8 +160,8 @@ if __name__ == "__main__":
     import matplotlib.pyplot as plt
 
 
-    # simulating sampled data over n=100 scans
-    num_of_scans = 100000
+    # simulating sampled data over n scans
+    num_of_scans = 600
 
     timestamps = np.linspace(0, 300, num_of_scans)  # s
 
@@ -181,8 +181,9 @@ if __name__ == "__main__":
             density_inventory_final,
             volume_tank
             )
-    print(f"Mean Mass Flowrate (kg/s) : {pg_calc.mass_flowrate.mean()}")
-    print(f"Std. Mass Flowrate (kg/s) : {pg_calc.mass_flowrate.std()}")
+    
+    # print results
+    print(f"Mass Flowrate (kg/s) : {pg_calc.mass_flowrate.mean():.3e} +- {1.96 * pg_calc.mass_flowrate.std() / np.sqrt(num_of_scans):.3e} (95% CI))")
     # print("Inventory Volume (m3) : ", pg_calc.volume_inventory.mean())
     # print("Tank Volume (m3) : ", pg_calc.volume_tank.mean())
     # print(f"Initial Inventory Mass (kg) : {pg_calc.mass_inventory_initial.mean()}")
@@ -190,5 +191,9 @@ if __name__ == "__main__":
     # print(f"Initial Tank Mass (kg) : {pg_calc.mass_tank_initial.mean()}")
     # print(f"Final Tank Mass (kg) : {pg_calc.mass_tank_final.mean()}")
 
-    plt.hist(pg_calc.mass_flowrate, bins=500)
+    # plot distribution of mass flowrates over the test point
+    plt.hist(pg_calc.mass_flowrate, bins=int(num_of_scans/10))
+    plt.title(f"Mass Flowrate Distribution ($n_{{scans}}={num_of_scans}$)")
+    plt.xlabel("Mass Flowrate (kg/s)")
+    plt.ylabel("Frequency")
     plt.show()
