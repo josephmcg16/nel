@@ -79,6 +79,14 @@ class PVTtCalculator:
     Attributes:
         t0 (float): Start time of the test.
         tf (float): End time of the test.
+        pressure_tank_initial (np.ndarray): Initial pressure of the gas in the tank (Pa).
+        pressure_tank_final (np.ndarray): Final pressure of the gas in the tank (Pa).
+        pressure_inventory_initial (np.ndarray): Initial pressure of the gas in the inventory volume (Pa).
+        pressure_inventory_final (np.ndarray): Final pressure of the gas in the inventory volume (Pa).
+        temperature_tank_initial (np.ndarray): Initial temperature of the gas in the tank (K).
+        temperature_tank_final (np.ndarray): Final temperature of the gas in the tank (K).
+        temperature_inventory_initial (np.ndarray): Initial temperature of the gas in the inventory volume (K).
+        temperature_inventory_final (np.ndarray): Final temperature of the gas in the inventory volume (K).
         density_tank_initial (np.ndarray): Initial density of the gas in the tank (kg/m3).
         density_tank_final (np.ndarray): Final density of the gas in the tank (kg/m3).
         density_inventory_initial (np.ndarray): Initial density of the gas in the inventory volume (kg/m3).
@@ -91,17 +99,30 @@ class PVTtCalculator:
 
     t0: float  # s
     tf: float  # s
-    density_tank_initial: np.ndarray  # kg/m3
-    density_tank_final: np.ndarray  # kg/m3
-    density_inventory_initial: np.ndarray  # kg/m3
-    density_inventory_final: np.ndarray  # kg/m3
+    pressure_tank_initial: np.ndarray  # Pa
+    pressure_tank_final: np.ndarray  # Pa
+    pressure_inventory_initial: np.ndarray  # Pa
+    pressure_inventory_final: np.ndarray  # Pa
+    temperature_tank_initial: np.ndarray  # K
+    temperature_tank_final: np.ndarray  # K
+    temperature_inventory_initial: np.ndarray  # K
+    temperature_inventory_final: np.ndarray  # K
     volume_tank: np.ndarray # m3
     volume_extra: float = 0  # m3
+    gas_constant: float = 296.8  # J/kg/K, placeholder value for N2
 
     def __post_init__(self) -> None:
         """
         Additional initializations that depend on the fields defined in the dataclass.
         """
+        self.density_tank_initial = self._calculate_density(
+            self.pressure_tank_initial, self.temperature_tank_initial)  # kg/m3
+        self.density_tank_final = self._calculate_density(
+            self.pressure_tank_final, self.temperature_tank_final)  # kg/m3
+        self.density_inventory_initial = self._calculate_density(
+            self.pressure_inventory_initial, self.temperature_inventory_initial)
+        self.density_inventory_final = self._calculate_density(
+            self.pressure_inventory_final, self.temperature_inventory_final)
 
         self.mass_tank_initial = self.volume_tank * self.density_tank_initial  # kg
         self.mass_tank_final = self.volume_tank * self.density_tank_final
@@ -151,8 +172,7 @@ class PVTtCalculator:
             float: Calculated density of the gas.
         """
         # Placeholder calculation using the ideal gas law
-        gas_constant = 296.8  # Placeholder value for N2
-        return pressure / (gas_constant * temperature)
+        return pressure / (self.gas_constant * temperature)
 
 
 if __name__ == "__main__":
@@ -165,10 +185,16 @@ if __name__ == "__main__":
     t0 = 0  # s
     tf = 3600  # s
 
-    density_tank_initial = np.random.normal(0.06, 0.05, size=num_of_scans)  # kg/m3
-    density_tank_final = np.random.normal(34.2, 0.2, size=num_of_scans)  # kg/m3
-    density_inventory_initial = np.random.normal(95.2, 0.25, size=num_of_scans)  # kg/m3
-    density_inventory_final = np.random.normal(1.14, 0.05, size=num_of_scans)  # kg/m3
+    pressure_tank_initial = np.random.normal(5e3, 1e3, size=num_of_scans)  # Pa
+    pressure_tank_final = np.random.normal(1.5e7, 1e3, size=num_of_scans)  # Pa
+    pressure_inventory_initial = np.random.normal(1.5e7, 1e3, size=num_of_scans)  # Pa
+    pressure_inventory_final = np.random.normal(1.2e5, 1e3, size=num_of_scans)  # Pa
+
+    temperature_tank_initial = np.random.normal(296.8, 0.1, size=num_of_scans)  # K
+    temperature_tank_final = np.random.normal(296.8, 0.1, size=num_of_scans)  # K
+    temperature_inventory_initial = np.random.normal(296.8, 0.1, size=num_of_scans)  # K
+    temperature_inventory_final = np.random.normal(296.8, 0.1, size=num_of_scans)  # K
+    
     volume_tank = np.random.normal(0.23, 0.01, size=num_of_scans)  # m3
 
 
@@ -176,10 +202,14 @@ if __name__ == "__main__":
     pg_calc = PVTtCalculator(
             t0,
             tf,
-            density_tank_initial, 
-            density_tank_final,
-            density_inventory_initial, 
-            density_inventory_final,
+            pressure_tank_initial,
+            pressure_tank_final,
+            pressure_inventory_initial,
+            pressure_inventory_final,
+            temperature_tank_initial,
+            temperature_tank_final,
+            temperature_inventory_initial,
+            temperature_inventory_final,
             volume_tank
             )
     
